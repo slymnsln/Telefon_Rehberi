@@ -1,0 +1,15 @@
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\bin\Debug\net7.0\Telefon_Rehberi.Entities.deps.json
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\bin\Debug\net7.0\Telefon_Rehberi.Entities.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\bin\Debug\net7.0\Telefon_Rehberi.Entities.pdb
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\bin\Debug\net7.0\Telefon_Rehberi.Core.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\bin\Debug\net7.0\Telefon_Rehberi.Core.pdb
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.csproj.AssemblyReference.cache
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.AssemblyInfoInputs.cache
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.AssemblyInfo.cs
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.csproj.CoreCompileInputs.cache
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.csproj.CopyComplete
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\refint\Telefon_Rehberi.Entities.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\Telefon_Rehberi.Entities.pdb
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Entities\obj\Debug\net7.0\ref\Telefon_Rehberi.Entities.dll
