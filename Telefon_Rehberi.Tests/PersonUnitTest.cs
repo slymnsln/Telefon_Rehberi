@@ -13,12 +13,24 @@ namespace Telefon_Rehberi.Tests
 
             var person = new Person
             {
-                FirstName = "TestFirstName1",
-                LastName = "TestLastName1",
-                CompanyName = "TestCompanyName1"
+                FirstName = "TestFirstName2",
+                LastName = "TestLastName2",
+                CompanyName = "TestCompanyName2"
             };
 
             var result = personManager.Add(person);
+
+            Assert.True(result.Success);
+        }
+
+        [Fact]
+        public void PersonDelete()
+        {
+            var personManager = new PersonManager(new EfPersonDal());
+
+            var personId = 2;
+
+            var result = personManager.Delete(personId);
 
             Assert.True(result.Success);
         }
