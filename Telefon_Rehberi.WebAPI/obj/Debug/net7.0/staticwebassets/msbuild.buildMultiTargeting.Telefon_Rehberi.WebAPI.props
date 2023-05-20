@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Telefon_Rehberi.WebAPI.props" />
+</Project>
