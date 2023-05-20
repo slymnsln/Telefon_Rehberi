@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Telefon_Rehberi.Core\Telefon_Rehberi.Core.csproj" />
+    <ProjectReference Include="..\Telefon_Rehberi.DataAccess\Telefon_Rehberi.DataAccess.csproj" />
+    <ProjectReference Include="..\Telefon_Rehberi.Entities\Telefon_Rehberi.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

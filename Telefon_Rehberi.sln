@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telefon_Rehberi.DataAccess"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon_Rehberi.WebAPI", "Telefon_Rehberi.WebAPI\Telefon_Rehberi.WebAPI.csproj", "{E90EA58B-5EB9-4DF7-BE26-D23CE2D1EF69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon_Rehberi.Business", "Telefon_Rehberi.Business\Telefon_Rehberi.Business.csproj", "{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E90EA58B-5EB9-4DF7-BE26-D23CE2D1EF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90EA58B-5EB9-4DF7-BE26-D23CE2D1EF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90EA58B-5EB9-4DF7-BE26-D23CE2D1EF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
