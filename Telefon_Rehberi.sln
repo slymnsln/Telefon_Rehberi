@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telefon_Rehberi.Core", "Tel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telefon_Rehberi.DataAccess", "Telefon_Rehberi.DataAccess\Telefon_Rehberi.DataAccess.csproj", "{13EF4647-187F-452C-ACD1-8344E3160FC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon_Rehberi.WebAPI", "Telefon_Rehberi.WebAPI\Telefon_Rehberi.WebAPI.csproj", "{E90EA58B-5EB9-4DF7-BE26-D23CE2D1EF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telefon_Rehberi.WebAPI", "Telefon_Rehberi.WebAPI\Telefon_Rehberi.WebAPI.csproj", "{E90EA58B-5EB9-4DF7-BE26-D23CE2D1EF69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon_Rehberi.Business", "Telefon_Rehberi.Business\Telefon_Rehberi.Business.csproj", "{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telefon_Rehberi.Business", "Telefon_Rehberi.Business\Telefon_Rehberi.Business.csproj", "{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon_Rehberi.Tests", "Telefon_Rehberi.Tests\Telefon_Rehberi.Tests.csproj", "{12FA48C2-3B3C-4394-9B7F-F6993EFA1512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C0A1A5-9D7C-41B7-9AC2-7F3911C2AD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FA48C2-3B3C-4394-9B7F-F6993EFA1512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FA48C2-3B3C-4394-9B7F-F6993EFA1512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FA48C2-3B3C-4394-9B7F-F6993EFA1512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FA48C2-3B3C-4394-9B7F-F6993EFA1512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
