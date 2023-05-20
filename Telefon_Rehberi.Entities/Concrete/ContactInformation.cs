@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Telefon_Rehberi.Core.Entities;
 
 namespace Telefon_Rehberi.Entities.Concrete
 {
-    public class ContactInformation
+    public class ContactInformation : IEntity
     {
         [Key]
         public int Id { get; set; }

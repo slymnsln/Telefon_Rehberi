@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Telefon_Rehberi.Core.Entities;
 
 namespace Telefon_Rehberi.Entities.Concrete
 {
-    public class Report
+    public class Report : IEntity
     {
         [Key]
         public int UUID { get; set; }

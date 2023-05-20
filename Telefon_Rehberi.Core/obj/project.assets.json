@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Telefon_Rehberi.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Telefon_Rehberi.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Telefon_Rehberi.Core.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Telefon_Rehberi.Core/1.0.0": {
-      "type": "project",
-      "path": "../Telefon_Rehberi.Core/Telefon_Rehberi.Core.csproj",
-      "msbuildProject": "../Telefon_Rehberi.Core/Telefon_Rehberi.Core.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Telefon_Rehberi.Core >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\slymnsln\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Entities\\Telefon_Rehberi.Entities.csproj",
-      "projectName": "Telefon_Rehberi.Entities",
-      "projectPath": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Entities\\Telefon_Rehberi.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Core\\Telefon_Rehberi.Core.csproj",
+      "projectName": "Telefon_Rehberi.Core",
+      "projectPath": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Core\\Telefon_Rehberi.Core.csproj",
       "packagesPath": "C:\\Users\\slymnsln\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Entities\\obj\\",
+      "outputPath": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,11 +37,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Core\\Telefon_Rehberi.Core.csproj": {
-              "projectPath": "C:\\Users\\slymnsln\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.Core\\Telefon_Rehberi.Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,6 +1,8 @@
-﻿namespace Telefon_Rehberi.Entities.DTOs
+﻿using Telefon_Rehberi.Core.Entities;
+
+namespace Telefon_Rehberi.Entities.DTOs
 {
-    public class ReportByLocationDto
+    public class ReportByLocationDto : IDto
     {
         public string Location { get; set; }
         public int PhoneCount { get; set; }
