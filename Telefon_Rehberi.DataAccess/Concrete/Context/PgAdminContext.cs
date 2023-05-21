@@ -8,7 +8,7 @@ namespace Telefon_Rehberi.DataAccess.Concrete.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            JToken jAppSettings = JToken.Parse(File.ReadAllText(Path.Combine(Environment.CurrentDirectory, "../../../../Telefon_Rehberi.WebAPI/appsettings.json")));
+            JToken jAppSettings = JToken.Parse(File.ReadAllText(Path.Combine(Environment.CurrentDirectory, "../Telefon_Rehberi.WebAPI/appsettings.json")));
 
             string _pgAdminContext = jAppSettings["ConnectionStrings"]["PgAdminContext"].ToString();
 
