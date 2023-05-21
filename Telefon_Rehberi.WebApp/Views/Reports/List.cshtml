@@ -1,0 +1,37 @@
+﻿@using Telefon_Rehberi.WebApp.Models.ServiceModel;
+@model List<Report>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<a href="/Reports/RequestReport" type="button" class="btn btn-success">Rapor Oluştur</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Rapor Tarihi</th>
+            <th scope="col">Rapor Durumu</th>
+            <th scope="col">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var report in Model)
+        {
+            <tr>
+                <th scope="row">@report.UUID</th>
+                <td>@report.ReportCreateDate</td>
+                <td>@report.ReportStatus</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        @if (report.ReportStatus == "Tamamlandı")
+                        {
+                            <a href="/Reports/ReportDownload/@report.UUID" type="button" class="btn btn-success">İndir</a>
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

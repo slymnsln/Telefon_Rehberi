@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/slymnsln/source/repos/Telefon_Rehberi/Telefon_Rehberi.WebApp/Views/ContactInformations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdEluZm9ybWF0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/slymnsln/source/repos/Telefon_Rehberi/Telefon_Rehberi.WebApp/Views/ContactInformations/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdEluZm9ybWF0aW9uc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/slymnsln/source/repos/Telefon_Rehberi/Telefon_Rehberi.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/slymnsln/source/repos/Telefon_Rehberi/Telefon_Rehberi.WebApp/Views/Persons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/slymnsln/source/repos/Telefon_Rehberi/Telefon_Rehberi.WebApp/Views/Reports/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/slymnsln/source/repos/Telefon_Rehberi/Telefon_Rehberi.WebApp/Views/Shared/Error.cshtml]

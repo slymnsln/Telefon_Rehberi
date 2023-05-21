@@ -1,0 +1,36 @@
+﻿@using Telefon_Rehberi.WebApp.Models.ServiceModel
+@model List<ContactInformation>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Telefon</th>
+            <th scope="col">Email</th>
+            <th scope="col">Konum</th>
+            <th scope="col">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contactInformation in Model)
+        {
+            <tr>
+                <th scope="row">@contactInformation.Id</th>
+                <td>@contactInformation.Phone</td>
+                <td>@contactInformation.Email</td>
+                <td>@contactInformation.Location</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a href="/ContactInformations/Delete/@contactInformation.Id" type="button" class="btn btn-danger">Sil</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
