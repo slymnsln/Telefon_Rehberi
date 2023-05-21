@@ -11,7 +11,11 @@ namespace Telefon_Rehberi.WebApp.Services.Concrete
         string apiUrl;
         public ReportManager(IConfiguration configuration)
         {
-            _configuration= configuration;
+            _configuration = configuration;
+            var webServiceUrl = _configuration.GetSection("WebServiceURL").Get<string>();
+            apiUrl = $"{webServiceUrl}/Reports";
+
+            _httpClient = HttpClientFactory.Create();
         }
 
         public ResponseDataModel<List<Report>> GetAll()

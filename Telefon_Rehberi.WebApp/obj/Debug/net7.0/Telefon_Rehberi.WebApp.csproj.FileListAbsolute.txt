@@ -31,3 +31,5 @@ C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp\obj\Debug\
 C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp\obj\Debug\net7.0\Telefon_Rehberi.WebApp.pdb
 C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp\obj\Debug\net7.0\Telefon_Rehberi.WebApp.genruntimeconfig.cache
 C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp\obj\Debug\net7.0\ref\Telefon_Rehberi.WebApp.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.WebApp\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

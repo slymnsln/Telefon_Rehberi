@@ -14,7 +14,11 @@ namespace Telefon_Rehberi.WebApp.Services.Concrete
 
         public ContactInformationManager(IConfiguration configuration)
         {
-            _configuration= configuration;
+            _configuration = configuration;
+            var webServiceUrl = _configuration.GetSection("WebServiceURL").Get<string>();
+            apiUrl = $"{webServiceUrl}/ContactInformations";
+
+            _httpClient = HttpClientFactory.Create();
         }
 
         public ResponseModel Add(ContactInformationViewModel contactInformationViewModel)

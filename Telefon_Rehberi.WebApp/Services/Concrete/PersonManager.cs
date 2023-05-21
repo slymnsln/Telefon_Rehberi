@@ -13,7 +13,11 @@ namespace Telefon_Rehberi.WebApp.Services.Concrete
         string apiUrl;
         public PersonManager(IConfiguration configuration)
         {
-            _configuration= configuration;
+            _configuration = configuration;
+            var webServiceUrl = _configuration.GetSection("WebServiceURL").Get<string>();
+            apiUrl = $"{webServiceUrl}/Persons";
+
+            _httpClient = HttpClientFactory.Create();
         }
 
         public ResponseModel Add(PersonViewModel personViewModel)
