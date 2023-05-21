@@ -1,5 +1,4 @@
 ﻿using Telefon_Rehberi.Business.Concrete;
-using Telefon_Rehberi.Core.Utilities.Results;
 using Telefon_Rehberi.DataAccess.Concrete;
 using Telefon_Rehberi.Entities.Concrete;
 using Telefon_Rehberi.Entities.DTOs;
@@ -15,9 +14,9 @@ namespace Telefon_Rehberi.Tests
 
             var person = new Person
             {
-                FirstName = "TestFirstName4",
-                LastName = "TestLastName4",
-                CompanyName = "TestCompanyName4"
+                FirstName = "TestFirstName5",
+                LastName = "TestLastName5",
+                CompanyName = "TestCompanyName5"
             };
 
             var result = personManager.Add(person);
@@ -30,7 +29,7 @@ namespace Telefon_Rehberi.Tests
         {
             var personManager = new PersonManager(new EfPersonDal());
 
-            var personId = 2;
+            var personId = 3;
 
             var result = personManager.Delete(personId);
 
