@@ -120,3 +120,4 @@ C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Tests\obj\Debug\n
 C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Tests\obj\Debug\net7.0\Telefon_Rehberi.Tests.pdb
 C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Tests\obj\Debug\net7.0\Telefon_Rehberi.Tests.genruntimeconfig.cache
 C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Tests\obj\Debug\net7.0\ref\Telefon_Rehberi.Tests.dll
+C:\Users\slymnsln\source\repos\Telefon_Rehberi\Telefon_Rehberi.Tests\bin\Debug\net7.0\RabbitMQ.Client.dll
