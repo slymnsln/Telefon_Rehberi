@@ -1,7 +1,14 @@
+using Telefon_Rehberi.WebApp.Services.Abstact;
+using Telefon_Rehberi.WebApp.Services.Concrete;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IPersonService, PersonManager>();
+builder.Services.AddSingleton<IContactInformationService, ContactInformationManager>();
+builder.Services.AddSingleton<IReportService, ReportManager>();
 
 var app = builder.Build();
 
